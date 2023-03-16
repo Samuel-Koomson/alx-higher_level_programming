@@ -1,9 +1,4 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-result = []
-for row in matrix:
-new_row = []
-for item in row:
-new_row.append(item**2)
-result.append(new_row)
-return result
+return list(map(lambda row: list(map(lambda item: item**2, row)), matrix))
+
