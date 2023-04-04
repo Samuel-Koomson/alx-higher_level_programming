@@ -6,12 +6,16 @@ class Rectangle:
     """ Module defines a rectangle class
     The module contains two attributes width and height which are private
     The attribute values must accept integers only.
-    TypeError will be raised is values are not integers while ValueError will be raised if values are less than 0.
+    TypeError will be raised is values are not integers while ValueError\
+    will be raised if values are less than 0.
     Two new attributes area and perimeter are added.
     """
     def __init__(self, width=0, height=0):
-        """This method initializes height and width attributes to 0
         """
+	
+	This method initializes height and width attributes to 0
+        
+	"""
         self.width = width
         self.height = height
 
